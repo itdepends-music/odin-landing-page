@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header,
+.hero,
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.hero-heading,
+.header-logo {
+    color: #f9faf8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.signup-background {
+    background-color: #3882f6;
+}
+
+.hero-signup-button,
+.signup-button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-button {
+    border: white 1px solid;
+}
