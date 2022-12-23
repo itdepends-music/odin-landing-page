@@ -28,12 +28,27 @@ body {
     color: #f9faf8;
 }
 
+.hero-heading {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-paragraph,
+.header-links {
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
 .quote {
     background-color: #e5e7eb;
 }
 
 .signup-background {
     background-color: #3882f6;
+    color: white;
 }
 
 .hero-signup-button,
@@ -46,4 +61,19 @@ body {
 
 .signup-button {
     border: white 1px solid;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-attrib {
+    font-weight: bold;
 }
