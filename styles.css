@@ -23,9 +23,8 @@ body {
     min-height: 100vh;
 }
 
-.header,
-.hero,
-.footer{
+.header-hero,
+.footer {
     background-color: #1f2937;
     color: #e5e7eb;
 }
@@ -53,10 +52,18 @@ body {
 
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .quote {
     background-color: #e5e7eb;
+    padding: 64px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    width: 800px;
 }
 
 .signup-background {
@@ -86,23 +93,73 @@ body {
     align-self: center;
 }   
 
+.info {
+    padding: 32px;
+}
+
 .info-heading {
     font-size: 36px;
     font-weight: 800;
+    text-align: center;
+    padding-bottom: 32px;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    padding-bottom: 8px;
 }
 
 .quote-attrib {
     font-weight: bold;
+    text-align: right;
 }
 
 .signup {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border: solid #3882f6;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    flex: 0 0 0;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.header-hero {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 48px;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
