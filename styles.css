@@ -65,8 +65,8 @@ body {
     display: flex;
     border-radius: 8px;
     margin: 64px 0;
-    gap: 24px;
-    padding: 32px;
+    gap: 96px;
+    padding: 32px 64px;
 }
 
 .hero-signup-button,
@@ -77,7 +77,7 @@ body {
     cursor: pointer;
     font-weight: bold;
     padding: 8px 16px;
-    margin: 0 32px;
+    border-radius: 4px;
 }
 
 .signup-button {
