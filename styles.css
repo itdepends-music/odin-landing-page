@@ -142,12 +142,13 @@ body {
 
 .card-text {
     text-align: center;
+    color: #1f2937;
 }
 
 .header-hero {
     display: flex;
     justify-content: center;
-
+    padding: 0 48px;
 }
 
 .header {
@@ -155,11 +156,36 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 8px;
-    padding-bottom: 48px;
+    padding-bottom: 96px;
 }
 
 .header-links {
     display: flex;
     align-items: center;
     gap: 24px;
+}
+
+.hero-image {
+    background-color:hsl(220, 5%, 50%);
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.hero {
+    display: flex;
+    padding-bottom: 128px;
+    gap: 32px;
+}
+
+.hero-paragraph {
+    padding-bottom: 8px;
+}
+
+.hero-text {
+    max-width: 500px;
 }
